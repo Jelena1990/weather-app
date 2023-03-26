@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+  font-family: "Open Sans", sans-serif;
+  /*background-image: url('https:/source.unsplash.com/2200x1100/?landscape');/*isla sam u unsplash.com/developer-  samo prekopirati ovo i zameniti rec umesto landscape nesto drugo*/
+  background-image: url(forest.jpg);
+}
+
+h2 {
+  color: red;
+}
+
+.card {
+  background-color: #000000d0;
+  color: white;
+  opacity: 95%;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+}
+s .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  border: none;
+  outline: none;
+  width: calc(100% - 100px);
+  padding: 10px;
+  border-radius: 18px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+}
+button {
+  margin: 10px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translate(-10px);
+  transition: 0.3s ease-in-out;
+}
+h1.temp {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.dscription {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.humidity {
+  margin-bottom: 10px;
+}
+
+.humidity,
+.description,
+.wind {
+  font-size: 20px;
+}
